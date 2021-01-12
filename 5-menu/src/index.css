@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f1f5f8;
+}
+
+main{
+  margin: 2rem auto;
+  width: 85vw;
+}
+
+h4,h2{
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+/* menu styling */
+.menu-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 36px;
+  margin-top: 3rem;
+}
+
+
+/* title styling */
+.title-container{
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+.title-container h2{
+  font-size: 2.5rem;
+  color: #102a42;
+}
+.title-container hr{
+  margin: 0 auto;
+  width: 5rem;
+  border: none;
+  height: 0.25rem;
+  background-color: #c59d5f;
+  margin-top: 0.25rem;
+}
+
+/* categories container */
+.categories-container{
+  display: flex;
+  justify-content: center;
+}
+.categories-container button{
+  margin: 1rem;
+  border: none;
+  font-size: 1rem;
+  color: #d2a85f;
+  background: none;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  padding: 0.5rem;
+}
+.categories-container button:hover{
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #d2a85f;
+}
+
+
+/* Item styling */
+.item-container{
+  display: flex;
+  margin-bottom: 4rem;
+}
+.item-container img{
+  height: 140px;
+  width: 220px;
+  margin-right: 1rem;
+  border: 4px solid #c59d5f;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+.info-container{
+
+}
+.info-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.info-container p{
+  color: #617d98;
+  line-height: 1.5rem;
+}
+.price{
+  color: #c59d5f;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
