@@ -62,6 +62,7 @@ h4,h2{
   cursor: pointer;
   letter-spacing: 0.05rem;
   padding: 0.5rem;
+  text-transform: capitalize;
 }
 .categories-container button:hover{
   border-radius: 0.25rem;

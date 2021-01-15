@@ -1,13 +1,15 @@
 import React from "react";
 
-function Categories() {
+function Categories({categories,filterItems}) {
   return (
     <div className="categories-container">
-        <button>All</button>
-        <button>Breakfast</button>
-        <button>Lunch</button>
-        <button>Shakes</button>
-        
+      {categories.map((category,index)=>{
+        return (
+          <button type="button" key={index} onClick={()=>filterItems(category)}>
+            {category}
+          </button>
+        );
+      })}
     </div>
   );
 }
